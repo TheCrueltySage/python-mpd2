@@ -298,7 +298,7 @@ class MPDClientBase(object):
 
     @mpd_commands(
         'add', 'addtagid', 'clear', 'clearerror', 'cleartagid', 'consume',
-        'crossfade', 'delete', 'deleteid', 'disableoutput', 'enableoutput',
+        'crossfade', 'ctrl', 'ctrlid', 'delete', 'deleteid', 'disableoutput', 'enableoutput',
         'findadd', 'load', 'mixrampdb', 'mixrampdelay', 'mount', 'move',
         'moveid', 'next', 'outputvolume', 'password', 'pause', 'ping', 'play',
         'playid', 'playlistadd', 'playlistclear', 'playlistdelete', 'playlistmove',
